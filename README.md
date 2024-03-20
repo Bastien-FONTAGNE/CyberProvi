@@ -1,6 +1,6 @@
 # CyberProvi
 
-"The turned based game of the Dark Future"<br>
+"The turn based game of the Dark Future"<br>
 
 !Jeu pas jouable pour l'instant!<br>
 
