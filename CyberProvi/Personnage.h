@@ -4,18 +4,12 @@
 class Personnage {
 
 public:
-
-	Personnage(int m_vie = 100, int m_ram);
-	bool estVivant();
-	void recevoirDegats(int nbDegats);
-	void attaquer(Personnage &cible);
-	
+	Personnage();
+	Personnage(const string& nom);
+	std::string getNom() const;
 
 private:
-	int m_vie;
-	int m_ram;
-	std::string m_nom1;
-	std::string m_nom2;
+	std::string m_nom;
 };
 
 #endif

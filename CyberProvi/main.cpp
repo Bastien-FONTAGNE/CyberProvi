@@ -1,4 +1,4 @@
-#include "Silverhand.h"
+#include "Personnage.h"
 #include <iostream>
 #include <string>
 
@@ -16,6 +16,10 @@ void afficherMenu() {
 
 int main()
 {
-    
+    Personnage joueur1, joueur2;
+
+
+    cout << "Joueur 1, veuillez choisir votre personnage" << endl << endl;
+    std::cin 
 }
 

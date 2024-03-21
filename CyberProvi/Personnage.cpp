@@ -4,7 +4,12 @@
 using namespace std;
 
 
-Personnage::Personnage(int m_vie, int m_ram) : m_nom1("Johnny Silverhand"), m_nom2("Adam Smasher"), m_vie(100), m_ram(32)
+Personnage::Personnage()
+{
+
+}
+
+Personnage::Personnage(const string& nom)
 {
 
 }
