@@ -7,7 +7,16 @@
 
 class Silverhand
 {
-public:
+  public:
+
+	Silverhand();
+
+  private:
+
+	  int m_vie;
+	  int m_ram;
+
+
 
 
 };

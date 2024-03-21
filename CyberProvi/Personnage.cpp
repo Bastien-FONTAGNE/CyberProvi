@@ -9,42 +9,16 @@ Personnage::Personnage()
 
 }
 
-Personnage::Personnage(const string& nom)
+void Personnage::setNom(const std::string& n)
 {
-
+	nom = n;
 }
 
-bool Personnage::estVivant()
+std::string Personnage::getNom() const
 {
-	return m_vie > 0;
+	return nom;
 }
 
-
-
-void Personnage::recevoirDegats(int nbDegats)
-{
-	m_vie -= nbDegats;
-
-	if (m_vie < 0)
-	{
-		m_vie = 0;
-	}
-
-	if (m_nom1 = !estVivant) 
-	{
-		cout << "Johnny Silverhand est mort!" << endl << endl;
-	}
-
-	if (m_nom2 = !estVivant)
-	{
-		cout << "Adam Smasher est mort!" << endl << endl;
-	}
-}
-
-void Personnage::attaquer(Personnage& cible)
-{
-
-}
 
 
 
