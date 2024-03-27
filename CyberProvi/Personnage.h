@@ -1,7 +1,7 @@
 #ifndef DEF_PERSONNAGE
 #define DEF_PERSONNAGE
 
-#include "silverhand.h"
+#include "Silverhand.h"
 #include <iostream>
 #include <string>
 

@@ -129,11 +129,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Personnage.cpp" />
-    <ClCompile Include="silverhand.cpp" />
+    <ClCompile Include="Silverhand.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Personnage.h" />
-    <ClInclude Include="silverhand.h" />
+    <ClInclude Include="Silverhand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
